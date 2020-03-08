@@ -1,0 +1,29 @@
+{
+  "name": "axx",
+  "version": "1.0.0",
+  "description": "AXX Flash to HTML5 Conversion",
+  "main": "index.js",
+  "dependencies": {
+    "gsap": "^2.0.1",
+    "jquery": "^3.3.1",
+    "sass": "^1.8.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scripts -o scripts"
+  },
+  "author": "shigi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shigimcp/axx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shigimcp/axx/issues"
+  },
+  "homepage": "https://github.com/shigimcp/axx#readme"
+}

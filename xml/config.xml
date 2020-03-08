@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><config>	<intro startPopUpDelay="3" />		<gallery_nav x="1150" y="242">		<btn defaultColor="#FFFFFF" hoverColor="#FFFFFF" />		<arrows defaultColor="#FFFFFF" hoverColor="#FFFFFF" />	</gallery_nav>		<gallery_info_panel x="550" y="170"/>		<gallery_zoom_panel x="529" y="125"/>	</config>

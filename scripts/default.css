@@ -1,0 +1,118 @@
+/* Scss Document */
+/* ========== FONTS ========== */
+@font-face {
+  font-family: 'Gotham-Book';
+  src: url("../fonts/Gotham-Book.eot");
+  src: url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Book.woff2") format("woff2"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% Gotham-Book, Arial, Helvetica, sans-serif;
+  color: #FF0000; }
+
+.nav {
+  background-color: #111111;
+  text-align: center;
+  height: 95px;
+  margin: 0 auto;
+  padding: 0; }
+
+.bodyContainer {
+  width: 2000px;
+  height: 600px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden; }
+
+.bodyContainer .bgContainer {
+  background-image: url(../images/global/bg_grid.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: 0; }
+
+.bodyContainer .clipMe {
+  width: inherit;
+  height: inherit; }
+
+.bodyContainer .clipMe .axxHed, .bodyContainer .clipMe .axx00Container, .bodyContainer .clipMe .logo_axx_w, .bodyContainer .clipMe .logo_axxObject {
+  position: relative;
+  display: inline-block; }
+
+.bodyContainer .clipMe .axxHed {
+  text-align: center;
+  line-height: 38.75px;
+  text-transform: uppercase;
+  width: 400px;
+  height: auto;
+  margin: 0;
+  padding: inherit;
+  top: -408.75px;
+  left: 412.5px; }
+
+.bodyContainer .clipMe .axxHed h1, .bodyContainer .clipMe .axxHed h2 {
+  background: -webkit-linear-gradient(#ccc, #fff, #666);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: inherit;
+  padding: inherit; }
+
+.bodyContainer .clipMe .axxHed h1 {
+  font-size: 36.25px; }
+
+.bodyContainer .clipMe .axxHed h2 {
+  font-size: 17.375px; }
+
+.bodyContainer .clipMe .axx00Container {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 920px;
+  height: 515px;
+  margin: 0;
+  padding: 0;
+  top: 90px;
+  left: 60px; }
+
+.bodyContainer .clipMe .axx00Container .axx00_ltrs, .bodyContainer .clipMe .axx00Container .axx00_imgs {
+  margin: 0;
+  padding: 0;
+  position: absolute; }
+
+.bodyContainer .clipMe .axx00Container .axx00_ltrs .axx00_ltrs *, .bodyContainer .clipMe .axx00Container .axx00_ltrs .axx00_imgs *, .bodyContainer .clipMe .axx00Container .axx00_imgs .axx00_ltrs *, .bodyContainer .clipMe .axx00Container .axx00_imgs .axx00_imgs * {
+  margin: inherit;
+  padding: inherit;
+  position: inherit; }
+
+.bodyContainer .clipMe .logo_axx_w {
+  fill: #FFFFFF;
+  width: 600px;
+  height: auto;
+  top: -97.5px;
+  left: 37.5px; }
+
+.bodyContainer .logo_axx_g {
+  fill: #535355;
+  width: auto;
+  height: 1080px; }
+
+.bodyContainer .fgContainer {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  top: 95px;
+  overflow: inherit; }
+
+.bodyContainer .fgContainer .logo_axx_g {
+  position: absolute;
+  top: -125px;
+  left: 0px; }
+
+#axx_metalID {
+  clip-path: url(#axx_xx_clipID); }

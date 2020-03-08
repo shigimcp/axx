@@ -1,0 +1,243 @@
+/* Scss Document */
+
+/* ========== FONTS ========== */
+
+@font-face {
+	font-family: 'Gotham-Book';
+	src: url('../fonts/Gotham-Book.eot');
+	src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Gotham-Book.woff2') format('woff2'),
+	url('../fonts/Gotham-Book.woff') format('woff'),
+	url('../fonts/Gotham-Book.svg#webfont') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+//================================================== VARIABLES ==================================================
+
+$font-stack: Gotham-Book, Arial, Helvetica, sans-serif;
+$primary-color: #FF0000;
+
+$border: 03px solid;
+
+$marginNone: 0;
+$paddingNone: 0;
+$marginCentered: 0 auto;
+
+$axxWidth: 2000px;
+$axxHeight: 600px;
+
+
+
+//================================================== GLOBAL ==================================================
+
+html, body {
+//	border: $border #FF0000;
+//	background: #000000;
+
+	margin: $marginNone;
+	padding: $paddingNone;
+}
+
+body {
+//	border: $border #FF0000;
+
+	font: 100% $font-stack;
+	color: $primary-color;
+}
+
+.nav {
+	background-color: #111111;
+
+	text-align: center;
+	height: 95px;
+
+	margin: $marginCentered;
+	padding: $paddingNone;
+
+}
+
+.bodyContainer {
+//	border: $border #00FF00;
+
+	width: $axxWidth;
+	height: $axxHeight;
+
+	margin: $marginCentered;
+	padding: $paddingNone;
+
+	overflow: hidden;
+
+	.bgContainer {
+//		border: $border #0000FF;
+//		background: #FF00FF;
+//		opacity: 0.25;
+
+//		background-image: url(../images/global/SP11-AXX_grid02.jpg);
+//		background-image: url(../images/global/bg.jpg);
+		background-image: url(../images/global/bg_grid.jpg);
+		background-position: center;
+		background-repeat: no-repeat;
+
+//		width: $axxWidth + ($axxWidth / 10);
+		width: inherit;
+		height: inherit;
+
+		position: absolute;
+		z-index: 0;
+
+//		overflow: inherit;
+
+//		.clipRect {
+//			border: $border #0000FF;
+//
+//			background-image: url(../images/global/logo_axx_g.svg);
+//			background-position: center;
+//			background-repeat: no-repeat;
+//		}
+	}
+
+	.clipMe {
+//		border: $border #00FF00;
+//		background: #FF00FF;
+//		opacity: 0.25;
+
+		width: inherit;
+		height: inherit;
+
+		.axxHed, .axx00Container, .logo_axx_w, .logo_axxObject {
+//			border: $border #0000FF;
+
+			position: relative;
+			display: inline-block;
+		}
+
+		.axxHed {
+//			border: $border #00FF00;
+
+			text-align: center;
+			line-height: 38.75px;
+			text-transform: uppercase;
+//			color: #FFFFFF;
+
+			width: 400px;
+			height: auto;
+
+			margin: $marginNone;
+			padding: inherit;
+
+			top: -408.75px;
+			left: 412.5px;
+
+			h1, h2 {
+//				border: $border #0000FF;
+
+				background: -webkit-linear-gradient(#ccc, #fff, #666);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+
+				margin: inherit;
+				padding: inherit;
+			}
+
+			h1 {
+				font-size: 36.25px;
+			}
+
+			h2 {
+				font-size: 17.375px;
+			}
+		}
+
+		.axx00Container {
+//			border: $border #0000FF;
+//			background: #FF00FF;
+//			background-image: url(../images/home/axx00.png);
+			background-position: center;
+			background-repeat: no-repeat;
+
+//			width: 910px;
+			width: 920px;
+			height: 515px;
+
+			margin: $marginNone;
+			padding: $paddingNone;
+
+			top: 90px;
+			left: 60px;
+
+			.axx00_ltrs, .axx00_imgs {
+
+				margin: $marginNone;
+				padding: $paddingNone;
+
+				position: absolute;
+
+				.axx00_ltrs *, .axx00_imgs * {
+
+					margin: inherit;
+					padding: inherit;
+
+					position: inherit;
+//					display: inline-block;
+				}
+			}
+		}
+
+		.logo_axx_w {
+//			border: $border #00FF00;
+
+			fill: #FFFFFF;
+
+			width: 600px;
+			height: auto;
+
+			top: -97.5px;
+			left: 37.5px;
+		}
+	}
+
+	.logo_axx_g {
+//		border: $border #00FF00;
+
+		fill: #535355;
+
+		width: auto;
+		height: 1080px;
+	}
+
+	.fgContainer {
+//		border: $border #00FF00;
+
+		width: inherit;
+		height: inherit;
+
+		position: absolute;
+		top: 95px;
+
+		overflow: inherit;
+
+		.logo_axx_g {
+//			border: $border #0000FF;
+
+			position: absolute;
+			top: -125px;
+			left: 0px;
+		}
+	}
+}
+
+
+
+//================================================== LOGO ==================================================
+
+#axx_metalID {
+//	-webkit-clip-path: url(#axx_xx_clipID);
+	clip-path: url(#axx_xx_clipID);
+}
+
+
+
+

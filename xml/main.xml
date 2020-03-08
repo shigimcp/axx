@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<main>
+
+	<item grid_position="0,0">
+		<label><![CDATA[A|XX 20TH STYLES]]></label>
+		<mini_label><![CDATA[STYLES]]></mini_label>
+		<img>images/nav/nav00.jpg</img>
+		<content>swf/20thlooks.swf</content>
+		<model>images/looks/look00.png</model>
+	</item>
+	
+	<item grid_position="0,1">
+		<label><![CDATA[A|XX SUN]]></label>
+		<mini_label><![CDATA[SUN]]></mini_label>
+		<img>images/nav/nav01.jpg</img>
+		<content>swf/sun.swf</content>
+		<model>images/looks/look01.png</model>
+	</item>
+	
+	<item grid_position="0,2">
+		<label><![CDATA[A|XX WATCH]]></label>
+		<mini_label><![CDATA[WATCH]]></mini_label>
+		<img>images/nav/nav02.jpg</img>
+		<content>swf/watch.swf</content>
+		<model>images/looks/look02.png</model>
+	</item>
+	
+	<item grid_position="0,3">
+		<label><![CDATA[AXTV]]></label>
+		<mini_label><![CDATA[AXTV]]></mini_label>
+		<img>images/nav/nav03.jpg</img>
+		<content>swf/axtv.swf</content>
+		<model>images/looks/look03.png</model>
+	</item>
+	
+	<item grid_position="1,0">
+		<label><![CDATA[A|X BLOG]]></label>
+		<mini_label><![CDATA[BLOG]]></mini_label>
+		<img>images/nav/nav04.jpg</img>
+		<content>swf/blog.swf</content>
+		<model>images/looks/look04.png</model>
+	</item>
+	
+	<item grid_position="1,1">
+		<label><![CDATA[A|X SOCIAL FEED]]></label>
+		<mini_label><![CDATA[SOCIAL]]></mini_label>
+		<img>images/nav/nav05.jpg</img>
+		<content>swf/social.swf</content>
+		<model>images/looks/look05.png</model>
+	</item>
+	
+	<item grid_position="1,2">
+		<label><![CDATA[THE A|X TIMELINE]]></label>
+		<mini_label><![CDATA[TIMELINE]]></mini_label>
+		<img>images/nav/nav06.jpg</img>
+		<content>swf/timeline.swf</content>
+		<model>images/looks/look06.png</model>
+	</item>
+	
+	<item grid_position="1,3">
+		<label><![CDATA[A NOTE FROM<br>GIORGIO ARMANI]]></label>
+		<mini_label><![CDATA[NOTE]]></mini_label>
+		<img>images/nav/nav07.jpg</img>
+		<content>swf/note.swf</content>
+		<model>images/looks/look07.png</model>
+	</item>
+	
+	<slideshow id="homepage">
+		<model>images/home/image00.png</model>
+		<model>images/home/image01.png</model>
+		<model>images/home/image02.png</model>
+		<model>images/home/image03.png</model>
+	</slideshow>
+	
+</main>

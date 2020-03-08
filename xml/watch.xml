@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<watch>
+
+	<item>
+		<description>A|XX 20th Rose Gold Chrono Watch</description>
+		<price>180</price>
+		<img>images/watch/watchW.png</img>
+		<thumb>images/watch/thumbW.png</thumb>
+		<model>images/watch/imageW.png</model>
+		<link href="http://www.armaniexchange.com/product/a%7Cxx+20th+rose+gold+chrono+watch.do" target="_new"></link>
+	</item>
+	
+	<item>
+		<description>A|XX 20th Chrono Watch</description>
+		<price>180</price>
+		<img>images/watch/watchM.png</img>
+		<thumb>images/watch/thumbM.png</thumb>
+		<model>images/watch/imageM.png</model>
+		<link href="http://www.armaniexchange.com/product/a%7Cxx+20th+chrono+watch.do" target="_new"></link>
+	</item>
+	
+</watch>

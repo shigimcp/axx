@@ -1,0 +1,58 @@
+ <?xml version="1.0" encoding="utf-8"?>
+<looks>
+
+	<look>
+		<img>images/20thlooks/20looks00.jpg</img>
+		<description>Allover Beaded Dress</description>
+		<price>$150</price>
+		<link href="http://www.armaniexchange.com/category/womens/axx+20th+anniversary.do" target="_new">SHOP THIS LOOK</link>
+		<start x="155" y="315"></start>
+		<end x="135" y="315"></end>
+	</look>
+
+	<look>
+		<img>images/20thlooks/20looks01.jpg</img>
+		<description>Linen Blazer</description>
+		<price>$225</price>
+		<link href="http://www.armaniexchange.com/category/mens/axx+20th+anniversary.do" target="_new">SHOP THIS LOOK</link>
+		<start x="315" y="250"></start>
+		<end x="315" y="270"></end>
+	</look>
+	
+	<look>
+		<img>images/20thlooks/20looks02.jpg</img>
+		<description>Houndstooth Blazer</description>
+		<price>$175</price>
+		<link href="http://www.armaniexchange.com/category/mens/axx+20th+anniversary.do" target="_new">SHOP THIS LOOK</link>
+		<start x="25" y="85"></start>
+		<end x="25" y="65"></end>
+	</look>
+	
+	<look>
+		<img>images/20thlooks/20looks03.jpg</img>
+		<description>Mesh Inset Sundress</description>
+		<price>$125</price>
+		<link href="http://www.armaniexchange.com/category/womens/axx+20th+anniversary.do" target="_new">SHOP THIS LOOK</link>
+		<start x="250" y="30"></start>
+		<end x="250" y="10"></end>
+	</look>
+	
+	<look>
+		<img>images/20thlooks/20looks04.jpg</img>
+		<description>Sleeveless Silk Romper</description>
+		<price>$125</price>
+		<link href="http://www.armaniexchange.com/category/womens/axx+20th+anniversary.do" target="_new">SHOP THIS LOOK</link>
+		<start x="490" y="180"></start>
+		<end x="490" y="200"></end>
+	</look>
+	
+	<look>
+		<img>images/20thlooks/20looks05.jpg</img>
+		<description>Cotton Casual Blazer</description>
+		<price>$165</price>
+		<link href="http://www.armaniexchange.com/category/mens/axx+20th+anniversary.do" target="_new">SHOP THIS LOOK</link>
+		<start x="675" y="270"></start>
+		<end x="675" y="250"></end>
+	</look>
+	
+</looks>
